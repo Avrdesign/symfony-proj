@@ -1,3 +1,5 @@
 #index:
 #    path: /
+#    controller: App\Controller\QuestionController::homepage
 #    controller: App\Controller\DefaultController::index
+#Роуты прописаны в классе QuestionController в комментариях перед функциями класса - требуется поддержка расширения Annotations
