@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData">
+  <component name="PublishConfigData" serverName="symfony-proj.loc">
     <serverData>
       <paths name="bisr.gov.by">
         <serverdata>
@@ -17,6 +17,13 @@
         </serverdata>
       </paths>
       <paths name="restdata.loc">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="symfony-proj.loc">
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />

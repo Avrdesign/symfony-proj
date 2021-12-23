@@ -1,0 +1,13 @@
+<h1>{{ question }}</h1>
+
+{# see src/Controller/QuestionController.php #}
+
+<div>
+    По событиям, здесь будет полный вопрос!
+</div>
+<h2>Answers = {{ answers|length }}</h2>
+<ul>
+    {% for answer in answers %}
+        <li>{{ answer }}</li>
+    {% endfor %}
+</ul>

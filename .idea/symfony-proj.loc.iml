@@ -135,6 +135,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/composer.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/composer" />
@@ -397,16 +407,6 @@
           <root url="file://$MODULE_DIR$/vendor/twig/extra-bundle" />
           <root url="file://$MODULE_DIR$/vendor/twig/twig" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="PHARS">
-        <CLASSES>
-          <root url="phar://$MODULE_DIR$/composer.phar/" />
-        </CLASSES>
-        <SOURCES>
-          <root url="phar://$MODULE_DIR$/composer.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
