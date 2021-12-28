@@ -12,6 +12,7 @@ namespace App\Controller;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Twig\Environment;
 
 class QuestionController extends AbstractController
 {
@@ -20,10 +21,19 @@ class QuestionController extends AbstractController
    */
   public function homepage()
   {
-    return $this->render('homepage/homepage.html.twig');
-    //return new Response('Текст из класса контроллера QuestionController!');
-  }
+        //return new Response('Текст из класса контроллера QuestionController!');
+        return $this->render('homepage/homepage.html.twig');
 
+  }
+  /*
+   public function homepage(Environment $twigEnvironment)
+  {
+        // fun example of using the Twig service directly!
+        //When you use twig directly, instead of returning a Response object, it returns a string with the HTML.
+        $html = $twigEnvironment->render('homepage/homepage.html.twig');
+        return new Response($html);
+  }
+    */
   /**
    * @Route("/questions/{slug}", name="app_question_show")
    */
