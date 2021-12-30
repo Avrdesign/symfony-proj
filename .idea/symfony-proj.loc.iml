@@ -13,12 +13,10 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/dbal" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/deprecations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-bundle" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/event-manager" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/instantiator" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/lexer" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/migrations" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/orm" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/persistence" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/doctrine/sql-formatter" />
@@ -142,6 +140,7 @@
         <CLASSES>
           <root url="phar://$MODULE_DIR$/composer.phar/" />
         </CLASSES>
+        <JAVADOC />
         <SOURCES>
           <root url="phar://$MODULE_DIR$/composer.phar/" />
         </SOURCES>
@@ -280,6 +279,7 @@
           <root url="file://$MODULE_DIR$/vendor/twig/twig" />
           <root url="file://$MODULE_DIR$/vendor/webmozart/assert" />
         </CLASSES>
+        <JAVADOC />
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/composer" />
           <root url="file://$MODULE_DIR$/vendor/doctrine/annotations" />
