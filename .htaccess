@@ -1,6 +1,6 @@
 AddDefaultCharset utf-8
 AddCharset utf-8 *
-AuthName symfony5learning
+AuthName symfony-proj
 
 DirectoryIndex /public/index.php
 RewriteEngine On
